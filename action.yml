@@ -24,7 +24,7 @@ inputs:
 
   cache-key-suffix:
     description: Suffix for the cache key (development purposes only).
-    default: 1.0.1
+    default: 1.0.2
 
   commit:
     description: Whether to commit changes locally.
@@ -73,7 +73,7 @@ inputs:
   script:
     description: >
       Specifier for the main script to run (development purposes only).
-    default: jsr:@molt/action@1.0.1
+    default: jsr:@molt/action
 
   source:
     description: >
@@ -120,7 +120,7 @@ runs:
     - name: Setup Deno
       uses: denoland/setup-deno@v1
       with:
-        deno-version: v1.43
+        deno-version: v1.45
 
     - name: Restore cache
       uses: actions/cache@v4
