@@ -82,6 +82,20 @@
           "jsr:@std/semver@^0.224.3"
         ]
       },
+      "@molt/core@0.19.6": {
+        "integrity": "9ec7197cf16a34676b76e57ebe0168468577c39eca739caf6dbe9592c33b39ac",
+        "dependencies": [
+          "jsr:@core/unknownutil@^3.18.1",
+          "jsr:@deno/graph@^0.81.0",
+          "jsr:@molt/lib@^0.19.0",
+          "jsr:@std/assert@^1.0.0",
+          "jsr:@std/collections@^1.0.1",
+          "jsr:@std/fs@^1.0.0",
+          "jsr:@std/jsonc@^1.0.0",
+          "jsr:@std/path@^1.0.0",
+          "jsr:@std/semver@^0.224.3"
+        ]
+      },
       "@molt/integration@0.19.5": {
         "integrity": "8fe4fb5176ae7fd464cdb21cc89bfeae6e85a5b6883f8a63b380207b1fd13c05",
         "dependencies": [
