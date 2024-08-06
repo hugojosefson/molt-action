@@ -26,6 +26,7 @@
       "jsr:@std/path@^1.0.0": "jsr:@std/path@1.0.2",
       "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.2",
       "jsr:@std/semver@^0.224.3": "jsr:@std/semver@0.224.3",
+      "jsr:@std/semver@^1.0.0": "jsr:@std/semver@1.0.1",
       "jsr:@std/streams@^1.0.0": "jsr:@std/streams@1.0.0",
       "npm:@actions/core@^1.10.1": "npm:@actions/core@1.10.1",
       "npm:@actions/github@^6.0.0": "npm:@actions/github@6.0.0_@octokit+core@5.2.0",
@@ -187,6 +188,9 @@
       },
       "@std/semver@0.224.3": {
         "integrity": "7bb34b5ad46de2c0c73de0ca3e30081ef64b4361f66abd57c84ff1011c6a1233"
+      },
+      "@std/semver@1.0.1": {
+        "integrity": "f0c9b41b70e27e8cdfe9252b486c55a727d66ead72625e0fa1aae75f45ca15e1"
       },
       "@std/streams@1.0.0": {
         "integrity": "350242b8fad9874ed45f3c42df3d132bd0a958f8a8bae9bbfa1ff039716aa6fb",
@@ -473,7 +477,7 @@
       "jsr:@std/fs@^1.0.0",
       "jsr:@std/jsonc@^1.0.0",
       "jsr:@std/path@^1.0.0",
-      "jsr:@std/semver@^0.224.3",
+      "jsr:@std/semver@^1.0.0",
       "npm:@actions/core@^1.10.1",
       "npm:@actions/github@^6.0.0",
       "npm:dedent@^1.5.3"
