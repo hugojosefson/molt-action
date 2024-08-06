@@ -73,7 +73,7 @@ inputs:
   script:
     description: >
       Specifier for the main script to run (development purposes only).
-    default: jsr:@molt/action
+    default: jsr:@molt/action@0.18
 
   source:
     description: >
